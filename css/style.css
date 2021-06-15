@@ -418,7 +418,7 @@ header .header-2 .header-active{
     color: #ff3300;
     font-size: 3rem;
 }
-.gallery .image-container .box .info .subInfo .price .stars i{
+.gallery .image-container .box .info .subInfo .stars i{
     color: orange;
     font-size: 1.5rem;
 }
