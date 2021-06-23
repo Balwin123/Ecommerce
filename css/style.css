@@ -12,7 +12,7 @@
     box-sizing: border-box;
     text-decoration: none;
     text-transform: capitalize;
-    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: all 0.2s cubic-bezier(.37,1.14,.26, 1.24);
 }
 *::selection{
     background: #ff3300;
@@ -22,10 +22,11 @@ html{
     font-size: 62.5%;
     overflow-x: hidden;
 }
+
 .btn{
     height: 4rem;
     width: 14rem;
-    background:var(--blue);
+    background: var(--blue);
     color: #fff;
     font-size: 2rem;
     cursor: pointer;
@@ -46,7 +47,7 @@ html{
     font-size: 2rem;
     padding: 1rem 6rem;
     color: #fff;
-    background:var(--blue);
+    background: var(--blue);
     border-top-right-radius: 3rem;
     display: inline-block;
 }
@@ -65,7 +66,7 @@ header .header-1 .logo{
     color: #666;
 }
 header .header-1 .logo i{
-    color:var(--glue);
+    color: var(--glue);
 }
 header .header-1 .form-container form{
     display: flex;
@@ -79,7 +80,7 @@ header .header-1 .form-container form #search{
     padding: 0 1rem;
 }
 header .header-1 .form-container form #search:fucas{
-    border-color:var(--blue);
+    border-color: var(--blue);
 }
 header .header-1 .form-container form label{
     height: 4rem;
@@ -88,7 +89,7 @@ header .header-1 .form-container form label{
     line-height: 4rem;
     font-size: 2rem;
     cursor: pointer;
-    background:var(--blue);
+    background: var(--blue);
     color: #fff;
 }
 header .header-1 .form-container form label:hover{
@@ -97,7 +98,7 @@ header .header-1 .form-container form label:hover{
 
 
 header .header-2{
-    background:var(--blue);
+    background: var(--blue);
 }
 header .header-2 .navbar ul{
     list-style: none;
@@ -130,7 +131,7 @@ header .header-2 #menu{
     cursor: pointer;
     display: none;
 }
-header .header-2 .header-active{
+header .header-2.header-active{
     position: fixed;
     top: 0;
     left: 0;
@@ -145,8 +146,8 @@ header .header-2 .header-active{
 }
 .home .home-slider .item img{
     height: 100vh;
+    object-fit: fill;
     width: 100%;
-    object-fit: cover;
 }
 .home .home-slider .item .content{
     position: absolute;
@@ -449,7 +450,7 @@ header .header-2 .header-active{
 }
 .deal .box-container .box .content{
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 3rem;
     transform: translateY(-50%);
 }

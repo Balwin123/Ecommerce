@@ -18,7 +18,7 @@ $(document).ready(function(){
         }
         $('section').each(function(){
             let height = $(this).height();
-            let offset = $(this).offset().top - 200;
+            let offSet = $(this).offSet().top - 200;
             let top = $(window).scrollTop();
 
             let id = $(this).attr('id');
@@ -31,11 +31,11 @@ $(document).ready(function(){
     });
 
     $('.home-slider').owlCarousel({
-        item: 1,
+        items: 1,
         nav: true,
         dots: false,
         autoplay: true,
-        autoplayTimeout:1000,
+        autoplayTimeout:4000,
         loop: true,
     });
 
